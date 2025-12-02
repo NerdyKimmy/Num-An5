@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 def f(x):
     return 2*x**6 + 3*x**5 + 4*x**2 - 1
 
-def df2(x): # Друга похідна
+def df2(x): # Друга похідн
     return 60*x**4 + 60*x**3 + 8
 
 x_nodes = np.array([1.0, 3.0, 5.0])
